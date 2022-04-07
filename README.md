@@ -91,8 +91,7 @@ A maquina dá vez é a [Lumberjack Turtle](https://tryhackme.com/room/lumberjack
   ### Como temos acesso aos arquivos do hospedeiro podemos criar um "backdoor" adicionando nossa chave publica do ssh no arquivo *authorized_keys* dentro do pasta `.ssh` dentro da pasta de usuário root
   
   > Para criar as chaves ssh use o comando `ssh-keygen`
-  
-  ### Para inserir a chave dentro do arquivo vamos utilizar o comando `echo "${Chave} >>> /root/.ssh/authorized_keys`
+  > Para inserir a chave dentro do arquivo vamos utilizar o comando `echo "${Chave} >>> /root/.ssh/authorized_keys`
   
   ![24 Colocando pub key no arquivo](https://user-images.githubusercontent.com/32500664/162098173-1428dd16-2055-4e1c-8190-4d8c0730bce8.png)
 
