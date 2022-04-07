@@ -14,23 +14,32 @@ A maquina dá vez é a [Lumberjack Turtle](https://tryhackme.com/room/lumberjack
   ![1 Rodando nmap](https://user-images.githubusercontent.com/32500664/161874493-28914374-937f-4b7a-9716-d2698b6aa2b0.png)
 
 # Pagina porta 80:
+  > Apenas uma pagina simples com uma mensagem.
+  
   ![2 Conteudo port80](https://user-images.githubusercontent.com/32500664/161875415-fd2367df-c044-4192-b7a6-8094404f1994.png) 
-### Fuzzing na pagina 80.
+
+  ### Fuzzing na pagina 80.
+  >Não é porque a pagina é simples que acabou a enumeração.
+  
   ![4 Resultado Fuff](https://user-images.githubusercontent.com/32500664/161875603-644316a9-bc69-401f-950b-2638fbdc222f.png)
   
 ### Pagina ~logs:
+  > "no logs, no crimes"
+  
   ![5Pagina ~logs fuff](https://user-images.githubusercontent.com/32500664/161876245-742657dc-2f27-4069-b59c-78aed984566d.png)
   
 ### Como ele mesmo disse... Go deeper.
   ![7 Resultado fuff logs](https://user-images.githubusercontent.com/32500664/161876392-1b576890-0bbd-44c7-97ec-05fbb3aa6d04.png)
 
 ### /~logs/log4j
+  > Bem alto explicativo o que vai acontecer daqui pra frente né ? �
   ![8 Conteudo logs lo4j](https://user-images.githubusercontent.com/32500664/161878823-026187ed-469f-4a58-83e4-1f4306911a48.png)
 
 # Explorando Log4shell:
   
-### Bem didático qual a vulnerabilidade que temos que explorar.
+### Botando nosso arsenal em pratica.  
   Vamos baixar a [ferramenta](https://github.com/welk1n/JNDI-Injection-Exploit) que vai gerar os Links JNDI que iremos injetar.
+  
   ![9 Baixando exploit](https://user-images.githubusercontent.com/32500664/161882105-bbff5bf7-2985-4b02-a2d2-2335e1f706e8.png)
 
 >Uma site gerador de payloads reverse shell bem simples de ser usado é o [reverse shell generator](https://www.revshells.com)
