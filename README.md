@@ -42,12 +42,14 @@ A maquina dá vez é a [Lumberjack Turtle](https://tryhackme.com/room/lumberjack
   ![10 Usando exploit](https://user-images.githubusercontent.com/32500664/161885374-9e864f3b-7e72-407f-99bc-e9436cebc180.png)
   
   ### Adicionando um link ao corpo da requisição temos ação...
+  
   ![10 1 Request com log4shell](https://user-images.githubusercontent.com/32500664/161885389-e8e8e04f-3226-4229-a3e7-82777c6a74af.png)
 
-  ###... e reação.
+  ### ...e reação.
+  
   ![11 recebendo shell](https://user-images.githubusercontent.com/32500664/162006254-d0cb090f-a2a5-4af3-bb1f-0d39ea7ddf3f.png)
 
-  ### Cheguei chegando. 
+  ### Cheguei chegando né ? 
   ![12 verificando user](https://user-images.githubusercontent.com/32500664/162014860-149567ca-7588-48cc-b18d-d9f8f7801eb8.png)
   
   ### Entramos aqui com um objetivo não ?
