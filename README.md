@@ -56,7 +56,7 @@ Finalmente de volta e nesse momento a maquina da vez se chama [Lumberjack Turtle
   ![14 pegando primeira flag](https://user-images.githubusercontent.com/32500664/162027152-1a6d4563-c6d4-4f2b-8582-34342b1a66bd.png)
 
 # Tá faltando uma flag não tá ?
-  # Depois de um tempo procurando tive a ideia de usar o [linpeas] para ver se dá uma luz.
+  ### Depois de um tempo procurando tive a ideia de usar o linpeas para ver se dá uma luz.
  > para baixar o script na maquina use o comando `wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh`  e em seguinda `bash. /linpeas.sh`
 
   ## Dando uma olhada no que o script me diz encontro uma seção afirmando que estou dentro de um container.
